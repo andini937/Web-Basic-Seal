@@ -1,0 +1,116 @@
+/* rizkidy.html */
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #A4BE7B;
+}
+
+/* Navbar */
+
+.navbar{
+ margin: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 35px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #8c8c8c;
+}
+
+.active {
+    background-color: #285430;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 15px;
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.main {
+    width: 800px;
+    height: 770px;
+    background-color: #E5D9B6;;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    padding: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+}
+
+ol {
+    text-align: left;
+}
+
+a img {
+    padding: 3px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+} 
+
+/* portofolio.html */
+
+.portofolio{
+    width: 800px;
+    height: 540px;
+    background-color: #E5D9B6;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    padding: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+table{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(black, #A4BE7B , black);
+}
+
+td{
+    text-align: left;
+    font-size: 13px;
+    padding: 12px;
+}
